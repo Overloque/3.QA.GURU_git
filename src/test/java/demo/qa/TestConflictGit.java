@@ -7,10 +7,8 @@ import static com.codeborne.selenide.Selenide.*;
 public class TestConflictGit {
     @Test
     void openChrome () {
-        open("https://www.google.com");
+        open("https://www.mozilla.org/ru/firefox");
 
         //testCase click chrome keyboard
-
-        $(".Umvnrc").click();
     }
 }
