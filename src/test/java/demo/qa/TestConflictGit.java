@@ -2,7 +2,6 @@ package demo.qa;
 
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestConflictGit {
@@ -10,8 +9,8 @@ public class TestConflictGit {
     void openChrome () {
         open("https://www.google.com");
 
-        //testCase visible field
+        //testCase click chrome keyboard
 
-        $("#APjFqb").shouldBe(visible);
+        $(".Umvnrc").click();
     }
 }
